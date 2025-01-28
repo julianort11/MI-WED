@@ -19,6 +19,7 @@
     display: flex;
     gap: 100px;
     padding-right: 100px;
+    color: #eee;
 }
 .ul_menu li{
     list-style: none;
@@ -40,6 +41,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #eee;
 }
 .article_home span{
     font-size: 28px;
