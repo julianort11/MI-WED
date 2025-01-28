@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 /************ header ************/
 .header {
@@ -17,10 +16,11 @@
     padding-top: 5px;
 }
 .ul_menu{
+    font-family: "Mostserrat-SemiBold";
     display: flex;
     gap: 100px;
     padding-right: 100px;
-    color: #eee;
+    color: var(--color-1);
 }
 .ul_menu li{
     list-style: none;
@@ -28,7 +28,7 @@
 }
 /************ main ***********/
 .section_home {
-    background-image: linear-gradient(#376e4072, #071917d5), url(../storage/img/banner.png);
+    background-image: linear-gradient(var(--color-gradient-1),var(--color-gradient-2)100%)var(--baner-1);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,16 +43,19 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    color: #eee;
+    color: var(--color-1);
 }
 .article_home span{
     font-size: 28px;
+    font-family: "Montserrat-SemiBold";
 }
 .article_home h1{
     font-size: 75px;
+    font-family: "Montserrat-SemiBold";
 }
 .article_home p{
     width: 340px;
+    font-family: "Montserrat-Medium";
 }
 .section_icon{
     background: #071917;
