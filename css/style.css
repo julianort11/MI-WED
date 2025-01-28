@@ -20,3 +20,6 @@
     gap: 100px;
     padding-right: 100px;
 }
+.ul_menu li{
+    list-style: none;
+}
