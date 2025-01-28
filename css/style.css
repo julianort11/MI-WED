@@ -23,3 +23,14 @@
 .ul_menu li{
     list-style: none;
 }
+/************ main ***********/
+.article_home{
+    width: 626px;
+    height: 360px;
+    position: relative;
+    left: 21svw;
+    top: 36svh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
