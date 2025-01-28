@@ -1,4 +1,9 @@
-
+:root{
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-1: url(../storage/img/banner.png);
+}
 @font-face {
     font-family: 'montserratMedium';
     src: url('../storage/font/Montserrat-Medium.ttf');
