@@ -52,3 +52,8 @@
 .article_home p{
     width: 340px;
 }
+.section_icon{
+    background: #071917;
+    display: flex;
+    justify-content: space-evenly;
+}
