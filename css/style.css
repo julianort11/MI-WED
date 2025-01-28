@@ -62,9 +62,6 @@
 
 /*** version movil ****/
 @media (max-width: 960px;) {
-    .header{
-        /*background: red;*/
-    }
     .ul_menu{
         gap: 15px;
         padding-right: 15px;
