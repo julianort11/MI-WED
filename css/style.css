@@ -34,3 +34,12 @@
     flex-direction: column;
     gap: 15px;
 }
+.article_home span{
+    font-size: 28px;
+}
+.article_home h1{
+    font-size: 75px;
+}
+.article_home p{
+    width: 340px;
+}
