@@ -24,6 +24,11 @@
 }
 .ul_menu li{
     list-style: none;
+    font-family: "Montserrat-SemiBold";
+}
+.ul_menu li a{
+    color: var(--color-1);
+    text-decoration: none;
 }
 /************ main ***********/
 .section_home {
@@ -128,24 +133,23 @@
 
 /******* segunda parte ********/
 .section_urban{
-    background: red;
+    background-color: var(--color-3);
     display: flex;
-    height: 124svh;
-    justify-content: center;
-    margin-top: 20px;
-    background-repeat: no-repeat;
-
-}
-.article_urban{
-    display: flex;
-    align-items: end;
-    position: absolute;
-    height: 830px;
-    left: 100px;
-    /*background:blue;*/
-}
-.article_urban h1{
-    font-size: 55px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
+    padding-top: 32px;
+    align-items: center;
+    flex-direction: column;
+    img{
+        padding-top: 28px;
+        width: 96vw;
+        height: auto;
+    }
+    h1{
+        position: absolute;
+        top: 2009px;
+        left: 120px;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        text-align: center;
+    }
 }
