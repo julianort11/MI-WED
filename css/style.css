@@ -153,3 +153,24 @@
         text-align: center;
     }
 }
+.section_graphics{
+    background-color: var(--color-3);
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+    flex-direction: column;
+    img{
+        padding-top: 28px;
+        width: 96vw;
+        height: auto;
+    }
+    h1{
+        position: absolute;
+        top: 2913px;
+        left: 127px;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        text-align: center;
+    }
+}
