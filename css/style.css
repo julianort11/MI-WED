@@ -16,7 +16,7 @@
     padding-top: 5px;
 }
 .ul_menu{
-    font-family: "Mostserrat-SemiBold";
+    font-family: "Montserrat-SemiBold";
     display: flex;
     gap: 66px;
     padding-right: 159px;
@@ -124,4 +124,28 @@
         padding-right: 15px;
         height: 95svh;
     }
+}
+
+/******* segunda parte ********/
+.section_urban{
+    background: red;
+    display: flex;
+    height: 124svh;
+    justify-content: center;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+
+}
+.article_urban{
+    display: flex;
+    align-items: end;
+    position: absolute;
+    height: 830px;
+    left: 100px;
+    /*background:blue;*/
+}
+.article_urban h1{
+    font-size: 55px;
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
 }
