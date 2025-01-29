@@ -136,21 +136,24 @@
     background-color: var(--color-3);
     display: flex;
     padding-top: 32px;
-    align-items: center;
     flex-direction: column;
     img{
-        padding-top: 28px;
-        width: 96vw;
-        height: auto;
+        background-color: var(--color-3);
+        justify-content: center;
+        padding-left: 2svh;
+        padding-right: 2svh;
+        width: 99svw;
+    }
+    .article_urban{
+        position: absolute;
+        padding-left: 16svh;
+        padding-top: 52svw;
     }
     h1{
-        position: absolute;
-        top: 2009px;
-        left: 120px;
-        font-size: 55px;
         font-family: "Montserrat-SemiBold";
         color: var(--color-1);
-        text-align: center;
+        font-size: 6svh;
+        padding-top: 0svw;
     }
 }
 .section_graphics{
