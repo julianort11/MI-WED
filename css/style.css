@@ -246,8 +246,8 @@
         color: var(--color-1);
         padding-top: 28px;
         font-family: 20px;
-  }
-  button{
+    }
+    button{
     font-family: "Montserrat_Regular";
     font-size: 20px;
     border-radius:30px;
@@ -262,4 +262,47 @@ footer{
     display: flex;
     justify-content: center;
     gap: 36.5px;  
+}
+
+/********** pagina blog ************/
+.header_blog{
+    background: var(--color-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.div_bloglog{
+    /* background: green; */
+}
+.div_menu_blog{
+    /* background: yellow; */
+    padding-left: 905px;
+}
+.ul_menu_blog{
+    /* background: violet; */
+    font-family: "Montserrat-SemiBold";
+    display: flex;
+    color: var(--color-1);
+    gap: 56px;
+}
+.ul_menu_blog li{
+    /* background: orange; */
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
+}
+.ul_menu_blog li a{
+    color: var(--color-1);
+    text-decoration: none;
+}
+.div_fotmen_blog{
+    /* background: blue; */
+    padding-block-end: 32px;
+}
+.div_fotmen_blog img{
+
 }
