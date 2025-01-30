@@ -12,3 +12,7 @@
     font-family: "Montserrat-Medium";
     src: url('../storage/font/Montserrat-SemiBold.ttf');
 }
+@font-face {
+    font-family: "Montserrat_Regular";
+    src: url('../storage/font/Montserrat-Regular.ttf');
+}

@@ -129,6 +129,7 @@
         padding-right: 15px;
         height: 95svh;
     }
+
 }
 
 /******* segunda parte ********/
@@ -160,41 +161,98 @@
     background-color: var(--color-3);
     display: flex;
     padding-top: 32px;
-    align-items: center;
     flex-direction: column;
     img{
-        padding-top: 28px;
-        width: 96vw;
-        height: auto;
+        background-color: var(--color-3);
+        justify-content: center;
+        padding-left: 2svh;
+        padding-right: 2svh;
+        width: 99svw;
+    }
+    .article_graphics{
+        position: absolute;
+        padding-left: 20svh;
+        padding-top: 48svw;
     }
     h1{
-        position: absolute;
-        top: 2913px;
-        left: 127px;
-        font-size: 55px;
         font-family: "Montserrat-SemiBold";
         color: var(--color-1);
-        text-align: center;
+        font-size: 6svh;
+        padding-top: 0svw;
     }
 }
 .section_art{
     background-color: var(--color-3);
     display: flex;
     padding-top: 32px;
-    align-items: center;
     flex-direction: column;
     img{
-        padding-top: 28px;
-        width: 96vw;
-        height: auto;
+        background-color: var(--color-3);
+        justify-content: center;
+        padding-left: 2svh;
+        padding-right: 2svh;
+        width: 99svw;
+    }
+    .article_art{
+        position: absolute;
+        padding-left: 15svh;
+        padding-top: 49svw;
     }
     h1{
-        position: absolute;
-        top: 3875px;
-        left: 112px;
-        font-size: 55px;
         font-family: "Montserrat-SemiBold";
         color: var(--color-1);
-        text-align: center;
+        font-size: 6svh;
+        padding-top: 0svw;
     }
 }
+.section_title{
+    font-family: "Montserrat-Medium";
+    color: var(--color-1);
+    background: var(--color-3);
+    font-size: 45px;
+    padding-top: 16px;
+    padding-left: 50px;
+}
+.carousel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    background: var(--color-3);
+    padding-top: 32px;
+
+    
+    & > .carousel-item {
+        display:flex;
+        flex-direction: column;
+        flex-grow: 1;
+        min-width: 23%;
+        background-color: #145E2A;
+        margin: 05px;
+        border-radius: 30px;
+        justify-content: center;
+        align-content: center;
+        padding: 50px 20px 100px;
+    }
+    h2{
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    p{
+        font-family: "Montserrat_Regular";
+        color: var(--color-1);
+        padding-top: 28px;
+        font-family: 20px;
+  }
+  button{
+    font-family: "Montserrat_Regular";
+    font-size: 20px;
+    border-radius:30px;
+    margin-top: 50px;
+    margin-left: 115px;
+    width: 36%;
+    height: 50px;
+  }
+}
+  
