@@ -138,12 +138,13 @@
     display: flex;
     padding-top: 32px;
     flex-direction: column;
+    width: 100%;
     img{
         background-color: var(--color-3);
         justify-content: center;
         padding-left: 2svh;
         padding-right: 2svh;
-        width: 99svw;
+        width: 100%;
     }
     .article_urban{
         position: absolute;
@@ -162,12 +163,13 @@
     display: flex;
     padding-top: 32px;
     flex-direction: column;
+    width: 100%;
     img{
         background-color: var(--color-3);
         justify-content: center;
         padding-left: 2svh;
         padding-right: 2svh;
-        width: 99svw;
+        width: 100%;
     }
     .article_graphics{
         position: absolute;
@@ -186,12 +188,13 @@
     display: flex;
     padding-top: 32px;
     flex-direction: column;
+    width: 100%;
     img{
         background-color: var(--color-3);
         justify-content: center;
         padding-left: 2svh;
         padding-right: 2svh;
-        width: 99svw;
+        width: 100%;
     }
     .article_art{
         position: absolute;
@@ -219,7 +222,6 @@
     overflow-x: scroll;
     background: var(--color-3);
     padding-top: 32px;
-
     
     & > .carousel-item {
         display:flex;
@@ -250,9 +252,14 @@
     font-size: 20px;
     border-radius:30px;
     margin-top: 50px;
-    margin-left: 115px;
-    width: 36%;
-    height: 50px;
+    margin-left: 82px;
+    width: 45%;
+    height: 48px;
   }
 }
-  
+footer{
+    background: var(--color-3);
+    display: flex;
+    justify-content: center;
+    gap: 36.5px;  
+}
