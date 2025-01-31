@@ -265,8 +265,11 @@ footer{
 }
 
 /********** pagina blog ************/
+.body_blog{
+    /* background: var(--color-3); */
+}
 .header_blog{
-    background: var(--color-3);
+    /* background: var(--color-3); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -276,9 +279,7 @@ footer{
     padding-right: 20px;
     padding-top: 5px;
 }
-.div_bloglog{
-    /* background: green; */
-}
+
 .div_menu_blog{
     /* background: yellow; */
     padding-left: 905px;
@@ -301,8 +302,57 @@ footer{
 }
 .div_fotmen_blog{
     /* background: blue; */
-    padding-block-end: 32px;
+    padding-block-end: 10px;
 }
-.div_fotmen_blog img{
+.section_blog-dos {
+    /* z-index: 2; */
+    /* background: var(--color-3); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 5svw;
+    padding-right: 20px;
+    padding-top: 120px;
+    width: 100%;
+}
+.imagen_linea {
+    background: red;
+}
+.imagen_linea img {
+    
+}
+.header_button {
+    /* background: green;  */
+    display: flex;
+}
+.header_button-li {
+    display: flex;
+    list-style: none;
+    background: #145E2A;
+    width: 113px;
+    height: 28px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
 
+}
+.header_lista {
+    /* background: violet; */
+    font-family: "Montserrat-SemiBold";
+    display: flex;
+    gap: 66px;
+    padding-left: 155px;
+    color: var(--color-1);
+    padding-top: 11px;
+}
+.header_lista li{
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+    text-decoration: none;
+}
+/************* main blog ************/
+.section_imag-uno{
+    padding-top: 20vh;
+    padding-left: 2vw;
 }
