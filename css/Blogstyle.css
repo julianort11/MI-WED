@@ -211,7 +211,12 @@
     }
 }
 
-
+.titulo_cuadros{
+    margin: 20px;
+    font-family: "Montserrat-Medium";
+    font-size: 28px;
+    color: var(--color-1);
+}
 
 .cuadros1 {
     display: flex;
@@ -238,7 +243,7 @@
         
         img{
             position: absolute;
-            top: 55.5vw;
+            top: 69vw;
             height: 19.72svw;
             display: flex;
             align-self: center;
@@ -248,7 +253,7 @@
             font-family: "Montserrat-SemiBold";
             font-size: 2svw;
             position: absolute;
-            top: 75svw;
+            top: 90vw;
             display: flex;
             align-self: center;
             color: var(--color-1);
@@ -256,7 +261,7 @@
 
         p{
             position: absolute;
-            top: 80svw;
+            top: 94svw;
             font-family: "Montserrat-Regular";
             font-size: 1.38svw;
             display: flex;
@@ -273,7 +278,7 @@
             position: absolute;
             display: flex;
             align-self: center;
-            top: 90svw ;
+            top: 103svw ;
             width: 9svw;
             height: 3svw;
             justify-content: center;
@@ -340,7 +345,7 @@
         
         img{
             position: absolute;
-            top: 98svw;
+            top: 113svw;
             height: 19.72svw;
             display: flex;
             align-self: center;
@@ -350,7 +355,7 @@
             font-family: "Montserrat-SemiBold";
             font-size: 2svw;
             position: absolute;
-            top: 117.5svw;
+            top: 133svw;
             display: flex;
             align-self: center;
             color: var(--color-1);
@@ -358,7 +363,7 @@
 
         p{
             position: absolute;
-            top: 122svw;
+            top: 137svw;
             font-family: "Montserrat-Regular";
             font-size: 1.38svw;
             display: flex;
@@ -375,7 +380,7 @@
             position: absolute;
             display: flex;
             align-self: center;
-            top: 133svw ;
+            top: 146svw ;
             width: 9svw;
             height: 3svw;
             justify-content: center;

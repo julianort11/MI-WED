@@ -142,9 +142,9 @@
     img{
         background-color: var(--color-3);
         justify-content: center;
-        padding-left: 2svh;
-        padding-right: 2svh;
-        width: 100%;
+        padding-left: 2svw;
+        padding-right: 2svw;
+        width: 99svw;
     }
     .article_urban{
         position: absolute;
@@ -156,6 +156,42 @@
         color: var(--color-1);
         font-size: 6svh;
         padding-top: 0svw;
+    }
+}
+@media (max-width: 960px) {
+    .section_urban {
+        padding-top: 24px;
+    }
+
+    .section_urban img {
+        width: 100%;
+        padding-left: 1svw;
+        padding-right: 1svw;
+    }
+
+    .section_urban h1 {
+        font-size: 5svh;
+    }
+}
+@media (max-width: 576px) {
+    .section_urban img {
+        width: 100%;
+        padding-left: 3svw;
+        padding-right: 3svw;
+    }
+
+    .section_urban h1 {
+        padding-top: 0svw;
+        padding-right: 41svw;
+        display: flex;
+        position: relative;
+        left: -89px;
+        top: -24px;
+        width: 118px;
+        height: 23px;
+        font-size: 20px;
+        justify-content: flex-start;
+        align-items: center
     }
 }
 .section_graphics{
@@ -183,6 +219,44 @@
         padding-top: 0svw;
     }
 }
+@media (max-width: 960px) {
+    .section_graphics {
+        padding-top: 24px;
+    }
+
+    .section_graphics img {
+        width: 100%;
+        padding-left: 1svw;
+        padding-right: 1svw;
+    }
+
+    .section_graphics h1 {
+        font-size: 5svh;
+    }
+}
+
+@media (max-width: 576px) {
+    .section_graphics img {
+        width: 100%;
+        padding-left: 3svw;
+        padding-right: 3svw;
+    }
+
+    .section_graphics h1 {
+        padding-top: 0svw;
+        padding-right: 41svw;
+        display: flex;
+        position: relative;
+        left: -126px;
+        top: -24px;
+        width: 118px;
+        height: 23px;
+        font-size: 20px;
+        justify-content: flex-start;
+        align-items: center
+    }
+}
+
 .section_art{
     background-color: var(--color-3);
     display: flex;
@@ -208,13 +282,53 @@
         padding-top: 0svw;
     }
 }
+@media (max-width: 960px) {
+    .section_art {
+        padding-top: 24px;
+    }
+
+    .section_art img {
+        width: 100%;
+        padding-left: 1svw;
+        padding-right: 1svw;
+    }
+
+    .section_art h1 {
+        font-size: 5svh;
+    }
+}
+
+@media (max-width: 576px) {
+    .section_art img {
+        width: 100%;
+        padding-left: 3svw;
+        padding-right: 3svw;
+    }
+
+    .section_art h1 {
+        padding-top: 0svw;
+        padding-right: 41svw;
+        display: flex;
+        position: relative;
+        left: -92px;
+        top: -5px;
+        width: 118px;
+        height: 23px;
+        font-size: 20px;
+        justify-content: flex-start;
+        align-items: center
+    }
+}
+
 .section_title{
-    font-family: "Montserrat-Medium";
-    color: var(--color-1);
-    background: var(--color-3);
-    font-size: 45px;
-    padding-top: 16px;
-    padding-left: 50px;
+    h1{
+        background-color: var(--color-3);
+        color: var(--color-1);
+        font-size: 45px;
+        font-family: "Montserrat-SemiBold";   
+        padding-left: 5svw;
+        padding-top: 3svh;
+    }
 }
 .carousel {
     display: flex;
@@ -256,6 +370,80 @@
     width: 45%;
     height: 48px;
   }
+}
+@media (max-width: 960px){
+    .carousel{
+        button{
+            font-family: "Montserrat_Regular";
+            font-size: 15px;
+            border-radius:30px;
+            margin-left: 40px;
+            height: 4svh;
+          }
+    }   
+  }
+  @media (max-width: 576px) {
+    .titleCarrusel h1{
+        font-size: 0.1px;
+        padding-top: 0.8svh;
+    }
+
+    .carousel{
+        height: 45svh;
+        & > .carousel-item{
+            margin: 1svh;
+            border-radius: 35px;
+            width: 45svw;
+            min-width: 50svw;
+        }
+
+
+        .carousel-item {
+            padding-left: 1svw;
+            font-size: 2.5svw;
+            font-family: "Montserrat-SemiBold";
+        }
+    
+        .div__a{
+        height: 4svh;
+        width: 20svw;
+        border-radius: 24px;
+        text-align: center;
+        padding-top: 1.5svw;
+        color: black;
+        font-family: "Montserrat-SemiBold";
+        
+        a{
+            font-size: 1.5svh;
+        }
+        }
+
+        button{
+            font-family: "Montserrat_Regular";
+            font-size: 15px;
+            border-radius:30px;
+            margin-left: 40px;
+            height: 4svh;
+          }
+
+
+
+    }   
+
+    #imgcarru{
+        width: 50svw;
+        height: 22svh;
+        padding-top: 2svw;
+        padding-left: 1svw;
+        padding-right: 1svw;
+        
+    }
+
+    p{
+        padding-top: 1svh;
+        padding-block-end: 1svh;
+    }
+
 }
 footer{
     background: var(--color-3);
